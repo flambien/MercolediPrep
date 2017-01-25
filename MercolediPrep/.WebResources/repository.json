@@ -1,0 +1,16 @@
+{
+    "records": [{
+        "name": "TIBCO Cloud",
+        "items": [{
+            "localTimestamp": 1485330820000,
+            "localURI": "/MercolediPrep/Service Descriptors/MercolediPrep_1.0.json",
+            "disabled": false,
+            "remoteTimestamp": 1485348684000,
+            "localHash": "aae67a80a52d84d7efd0da0ece2798bb8da32a42",
+            "remoteId": "37",
+            "remoteHash": "aae67a80a52d84d7efd0da0ece2798bb8da32a42"
+        }],
+        "url": "https://integration.cloud.tibco.com:443"
+    }],
+    "resources": []
+}

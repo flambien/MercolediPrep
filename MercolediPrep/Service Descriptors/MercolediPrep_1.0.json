@@ -1,0 +1,35 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0",
+    "title": "MercolediPrep",
+    "x-lastModified": "Jan 24, 2017 23:51PM PST"
+  },
+  "paths": {
+    "/Finance/Rate": {
+      "get": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success response",
+            "schema": {
+              "type": "string"
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "symbols",
+            "in": "query",
+            "description": "",
+            "required": true,
+            "type": "string",
+            "format": ""
+          }
+        ]
+      }
+    }
+  }
+}
